@@ -1,5 +1,5 @@
 FROM microsoft/dotnet
-WORKDIR /dotnetapp
+WORKDIR /app
 
 # copy project and restore as distinct layers
 COPY dotnet-miami-pres.csproj .
