@@ -1,2 +1,7 @@
 obj
 bin
+.vscode
+.gitignore
+LICENSE
+README.md
+[Dd]ocker(f|-c)?*
