@@ -7,7 +7,7 @@
         {
             "taskName": "build",
             "args": [
-                "${workspaceRoot}\\dotnet-miami-pres.csproj"
+                "${workspaceRoot}\\docker-101.csproj"
             ],
             "isBuildCommand": true,
             "problemMatcher": "$msCompile"

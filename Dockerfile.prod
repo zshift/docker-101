@@ -1,6 +1,5 @@
 FROM microsoft/dotnet:runtime
 WORKDIR /app
 
-# copy project and restore as distinct layers
 COPY out .
-ENTRYPOINT ["dotnet", "dotnet-miami-pres.dll"]
+ENTRYPOINT ["dotnet", "docker-101.dll"]
