@@ -7,6 +7,7 @@ namespace docker_101
     {
         static void Main(string[] args)
         {
+            // Console.WriteLine("Hello, dotNet Miami!");
             const string ConnectionString = "mongodb://mongo:27017";
             var client = new MongoClient(ConnectionString);
             var database = client.GetDatabase("presentation");

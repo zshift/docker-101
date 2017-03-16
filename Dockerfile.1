@@ -1,0 +1,11 @@
+
+FROM microsoft/dotnet
+WORKDIR /app
+
+COPY docker-101.csproj .
+RUN dotnet restore
+
+COPY *.cs ./
+RUN dotnet publish -c Release -o out
+
+ENTRYPOINT ["dotnet", "out/docker-101.dll"]
